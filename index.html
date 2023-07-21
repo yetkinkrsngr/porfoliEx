@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Remixcon link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header start -->
+
+    <header>
+      <a href="#" class="logo">Developer <span>Y.</span></a>
+      <ul class="navlist">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="top-btnn">
+        <a href="#" class="h-btn">Contact me</a>
+      </div>
+    </header>
+    <!-- Header End -->
+    <!-- Hero start -->
+    <section class="hero">
+      <div class="main-content">
+        <h4>Hi, There!</h4>
+        <h1>I'm <span class="input" id="name"> </span></h1>
+        <p>
+          a passionate Frontend Developer crafting captivating digital
+          experiences. With an eye for detail and clean code, I create seamless
+          interfaces and intuitive user interactions. Let's collaborate and make
+          the web extraordinary together! 🚀
+          <span class="has-cur"
+            ><span class="Hastag">#</span>FrontendDeveloper</span
+          >
+          <span class="has-cur"
+            ><span class="Hastag">#</span>WebDevelopment</span
+          >
+          <span class="has-cur"
+            ><span class="Hastag">#</span>UserExperience</span
+          >
+        </p>
+        <div class="social">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-youtube-fill"></i></a>
+        </div>
+        <div class="main-btnn">
+          <a href="#" class="btn">Hire me</a>
+          <a href="#" class="btn btn2">Dowload CV</a>
+        </div>
+      </div>
+      <div class="bottom">
+        <p>Copyright &copy; 2023 All rights reserved</p>
+      </div>
+    </section>
+    <!-- Hero End -->
+    <!-- Js link -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+      var typed = new Typed(".input", {
+        strings: [
+          "Yetkin Karasungur",
+          "Frontend Developer",
+          "Web Developer",
+          "UI/UX Designer",
+        ],
+        typeSpeed: 70,
+        backSpeed: 65,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
